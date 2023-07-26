@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inria Sans', sans-serif;
   
 }
 
@@ -29,7 +29,7 @@ main {
 /*----------------------------NAVBAR HOME------------------------------------------------------*/
 .navbar-brand{/*P.I.L.O no navbar*/
   color: rgb(255, 255, 255);
-  margin-left: 3em;
+
 } 
 .navbar-brand:hover{/*P.I.L.O no navbar*/
   color: rgb(253, 255, 255);
@@ -45,11 +45,13 @@ main {
   /*box-shadow:  1px  4px 10px rgb(0, 0, 0);*/
 }
 .navbar-expand-lg .navbar-collapse{/*Posição do navbar*/
-  margin-left:24%;
+  margin-left:28%;
+  
 }
 .navbar .nav-link{
   color: rgb(240, 255, 241);
   letter-spacing: 0.1em;
+
 }
 .justify-content-lg-end {/*Posição dos buttons*/
   margin-left: 16.5em;
@@ -103,27 +105,39 @@ main {
   background-repeat: no-repeat;
   min-width: 90vh;
   min-height: 120vh;
+  width: 100%;
+  margin-top: -30vh;
 }
 #celular{
  max-width: 100%;
  height: auto;
- width: 35.5em;
- margin-top: 6em;
+ width: 28em;
+ margin-top: 16em;
+ margin-left: 2em;
 }
 .titu-pilo{
   color: rgb(255, 255, 255);
-  margin-top: 2em;
+  margin-top: 3em;
   margin-right: 2.5em;
   font-size:4.9em;
 
 }
 .text-pilo{
-  margin-right:3.5em;
-  margin-top: -6.5em;
-  font-size:2.1em;
+  font-size:1.9em;
   color: rgb(255, 255, 255);
 
-
+}
+.text-end-1 {
+  margin-left: 16.7em;
+  margin-top: -8.3em;
+}
+.text-end-2 {
+  margin-left: 21.3em;
+  margin-top: -0.8em;
+}
+.text-end-3 {
+  margin-left: 15.7em;
+  margin-top:  -0.8em;
 }
 /*--------------------------------------------HOME EMPRESA---------------------------------------------------------*/
 
@@ -217,6 +231,10 @@ main {
   left: 28em;
 }
  /*---------------------------------------------------TELA CADASTRO-------------------------------------------------------------------------------------*/
+ .formu {
+    width: 28rem;
+ }
+ 
  section.esquerda {
   width: 50%;
   height: 100vh;
@@ -270,13 +288,13 @@ section.direita {
 
 .log-text1{
   color: #FFF;
-  font-size: 1.9em;
+  font-size: 1.6em;
   /* margin-bottom: 1.5rem;
   margin-left: 1.5rem; */
 }
 .log-text2{
   color: #FFF;
-  font-size: 1rem;
+  font-size: 1.3em;
   /* margin-bottom: 1.5rem;
   margin-left: 1.5rem; */
   font-style: normal;
@@ -288,7 +306,9 @@ section.direita {
 div.forms{
  background-color: rgb(0, 0, 0);
  font-weight: 200;
+
 }
+
 
  /*---------------------------------------------------TELA CADASTRO-------------------------------------------------------------------------------------*/
 
@@ -435,4 +455,20 @@ input:valid ~ .labeluser {
   border-radius: 10px;
   margin: auto;
   margin-top: 20px;
+}
+
+.inp-cep {
+  width: 15rem;
+}
+.inp-n {
+  width: 12.6rem;
+}
+.inp-cnpj {
+  width: 14rem;
+}
+.inp-tel {
+  width: 14rem;
+}
+.lab-num {
+  margin-left: 15.3rem;
 }

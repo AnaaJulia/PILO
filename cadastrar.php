@@ -8,39 +8,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main style="position:relative;">
+        <a class="seta" href="index-inicial.php"><img width="28px" src="senta.png" alt=""></a>
         <section class="esquerda">
-            <img src="docs/img/aaaaaa.png" alt="">
+            <img src="docs/img/lado.png" alt="">
 
-            <form action="cadatro" >
-
+            <form action="cadatro" class="formu">
                 <div class="texts">
-                    <h1 class="log-text1 ">Olá! <br> Vamos começar o cadastro. </h1>
-                    <h1 class="log-text2">Preencha esses campos com as informações da sua empresa.<h1>
+                    <h1 class="log-text1 ">Ok!</h1>
+                    <h1 class="log-text2">Vamos começar o seu cadastro.<h1> 
+                    <h1 class="log-text2">Preencha esses campos com as informações da sua empresa<h1>
                 </div>
 
-                <input name="nome" autocomplete="off" required />
-                <label for="text"><span id="nome">Nome </span></label> 
+                <div class="input-label">
+                    <input type="text" id="nome" autocomplete="off" class="inputuser" required />
+                    <label class="labeluser" for="senha">Nome</label>
+                </div>
 
-                <input name="number" autocomplete="off" required />
-                <label for="number"><span id="cnpj">CNPJ</span></label>
+                <div class="input-label">
+                    <input type="email" id="email" autocomplete="off" class="inputuser" required /> 
+                    <label class="labeluser" for="email">E-mail</label>
+                </div>
+                
+                <div class="input-label">
+                    <input type="text" id="cnpj" autocomplete="off" class="inputuser inp-cnpj" maxlength="18" onkeypress="masc_cnpj(this)" onkeydown="return somente_numero1(evente)" required />
+                    <label class="labeluser" for="cnpj">CNPJ</label>
+                </div>
 
-                <input name="text" autocomplete="off" required />
-                <label for="inputEmail4"><span id="email">Email</span></label>
+                <div class="input-label">
+                    <input type="text" id="nome-fan" autocomplete="off" class="inputuser" required />
+                    <label class="labeluser" for="senha">Nome Fantasia</label>
+                </div>
 
-                <input name="password" autocomplete="off" required />
-                <label for="password"><span id="senha">Telefone</span></label>
+                <div class="input-label">
+                    <input type="text" id="tell" autocomplete="off" class="inputuser inp-tel" maxlength="14" class="form-control" id="telefone" onkeypress="mascara_telefone(this)" onkeydown=" return somente_numero(event)" required  />
+                    <label class="labeluser" for="tel">Telefone</label>
+                </div>
 
-                <input name="password" autocomplete="off" required />
-                <label for="password"><span id="senha">Telefone</span></label>
+                <div class="localiza">
+                    <div class="input-label">
+                        <input type="text" id="cep" autocomplete="off" class="inputuser inp-cep " maxlength="9" onkeypress="masc_cep(this)" onkeydown="return somente_numero1(evente)" required />
+                        <label class="labeluser" for="cnpj">CEP</label>
 
-                <input name="password" autocomplete="off" required />
-                <label for="password"><span class="col-md-2" id="senha">N°</span></label>
+                        <input type="number" id="num-cep" autocomplete="off" class="inputuser inp-n " min="1" max="999999"required />
+                        <label class="labeluser lab-num" for="cnpj">N°</label>
+                    </div>
 
-                <button type="button" id="nlogin1" type="submit"> Cadastrar</button>
-    
-
-            </form>
+                </div>
+           
         </section>  
 
         <section class="direita">
@@ -52,5 +67,7 @@
 
         </section>
     </main>
+
+    <script src="js/javascript.js"></script>
 </body>
 </html>

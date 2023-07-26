@@ -13,7 +13,9 @@
        
             <div class="row g-2">
                 <div class="col col-lg-12">
-                    <p class="text-pilo text-end">A mais nova plataforma <br>digital para Dentistas</p> 
+                    <p class="text-pilo text-end-1">A mais nova</p> 
+                    <p class="text-pilo text-end-2">plataforma digital para</p>
+                    <p class="text-pilo text-end-3">Dentistas.</p>
                 </div> 
             </div>
 
