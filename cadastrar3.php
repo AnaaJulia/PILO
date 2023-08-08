@@ -15,9 +15,8 @@
 
             <form action="cadatro" class="formu">
                 <div class="texts">
-                    <h1 class="log-text1 ">Ok!</h1>
-                    <h1 class="log-text2">Vamos começar o seu cadastro.<h1> 
-                    <h1 class="log-text2">Preencha esses campos com as informações da sua empresa<h1>
+                    <h1 class="log-text1 ">Agora, crie p seu usuário administrador.</h1>
+                   
                 </div>
 
                 <div class="input-label">
@@ -38,12 +37,7 @@
                 </div>
 
         
-                <select class="  form-select form-select-lg mb-3 " aria-label="Large select example">
-                    <option selected>Nivel</option>
-                    <option value="1">Administrador</option>
-                    <option value="2">Comum</option>
-                    <option value="3"> Entregador</option>
-                </select>
+
            
         </section>  
 

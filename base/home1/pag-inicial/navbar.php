@@ -19,7 +19,7 @@
       <div class="d-lg-flex col-lg-3 justify-content-lg-end text-end">
         <button type="button" class="btn btn-dark" id="button-nav1"><a class="nav-link"  aria-current="page" href="login.php">Entrar</a></button>
         <div class="linha"></div>
-        <a href="cadastrar.php"><button type="button" id="button-nav2">Cadastrar</button></a>
+        <a href="lab-cli.php"><button type="button" id="button-nav2">Cadastrar</button></a>
       </div>
   </div>
 </nav>

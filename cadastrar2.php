@@ -16,7 +16,7 @@
               
                 <div class="form-check">
                     <label class="form-check-label" for="defaultCheck1">Especialidades</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <input class="form-check-input" type="checkbox" value="" >
                  
                     
                 </div>
