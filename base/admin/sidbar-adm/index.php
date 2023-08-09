@@ -67,9 +67,6 @@
                             <span class="text nav-text">Usuários</span>
                         </a>
                     </li>
-
-                
-
                 </ul>
             </div>
 
@@ -80,15 +77,10 @@
                         <span class="text nav-text">Deslogar</span>
                     </a>
                 </li>
-
-
-                
             </div>
         </div>
 
     </nav>
-
-
     <script src="script.js"></script>
 
 </body>

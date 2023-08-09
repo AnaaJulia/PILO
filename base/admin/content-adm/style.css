@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+    
+  }
+  .t-usu {
+    margin-left: 40rem;
+    margin-top: 4rem;
+  }
+  .container .opc {
+    margin-left: 23rem;
+    margin-top: 2rem;
+  }
+  .cards {
+
+    margin-top: 8rem;
+  }
+  .card {
+    width:35rem ;
+    background-color: rgb(255, 255, 255);
+    border: solid black 1px;
+    height: 7rem;
+    border-left: solid white ;
+    border-right: solid white;
+    margin-left: 27rem;
+  }
+  .c2 {
+    border-top: solid white;
+  }
