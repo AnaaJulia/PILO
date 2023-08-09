@@ -1,0 +1,490 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inria Sans', sans-serif;
+  
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+/*----------------------------NAVBAR HOME------------------------------------------------------*/
+.navbar-brand{/*P.I.L.O no navbar*/
+  color: rgb(255, 255, 255);
+
+} 
+.navbar-brand:hover{/*P.I.L.O no navbar*/
+  color: rgb(253, 255, 255);
+}
+.logo{
+  width: 3.5em;
+  height: 5.5em;
+}
+.navbar-expand-lg{/*cor do navbar*/
+  background-color:#0A0C3F;
+  font-size: medium;
+  height: 5em;
+  /*box-shadow:  1px  4px 10px rgb(0, 0, 0);*/
+}
+.navbar-expand-lg .navbar-collapse{/*Posição do navbar*/
+  margin-left:28%;
+  
+}
+.navbar .nav-link{
+  color: rgb(240, 255, 241);
+  letter-spacing: 0.1em;
+
+}
+.justify-content-lg-end {/*Posição dos buttons*/
+  margin-left: 16.5em;
+  padding-left: 0em;
+}
+#button-nav1{
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  margin-right: -0.7rem;
+}
+#button-nav2{
+  border: none;
+  background: white;
+  padding: 5px 25px;
+  color: #0A0C3F;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-left:0.3rem;
+  margin-top: 3px;
+  box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s linear;
+}
+#button-nav2:hover {
+  transform: scale(1.03);
+}
+.linha {/*do lado dos buttons cadastrar e entrar*/
+  margin-left: 0.10em;
+  border-top-width:7em;
+  border-right:2.9px solid rgb(255, 255, 255);
+  border-radius: 0.5em;
+}
+.seta {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  z-index: 100000;
+  transition: .5s;
+}
+
+.seta:hover {
+  transform: scale(1.05);
+}
+/*----------------------------------------------------HOME DO CELULAR-------------------------------------------------------*/
+
+.home{
+  background-image: url('docs/img/home.png');
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 90vh;
+  min-height:125vh;
+  width: 100%;
+  margin-top: -23vh;
+}
+#celular{
+ max-width: 100%;
+ height: auto;
+ width: 28em;
+ margin-top: 16em;
+ margin-left: 2em;
+}
+.titu-pilo{
+  color: rgb(255, 255, 255);
+  margin-top: 5.6em;
+  margin-right: 6.2em;
+  font-size:3.5em;
+
+}
+.text-pilo{
+  font-size:1.5em;
+  color: rgb(255, 255, 255);
+
+}
+.text-end-1 {
+  margin-left: 16.7em;
+  margin-top: -8.3em;
+}
+.text-end-2 {
+  margin-left: 16em;
+  margin-top: -0.8em;
+}
+
+/*--------------------------------------------HOME nos---------------------------------------------------------*/
+
+.nos{ 
+  margin-top:2em;
+}
+
+#sobre-nos{
+  margin-left: 10%;
+  margin-top: -2.5em;
+  color: #0A0C3F;
+
+}
+#text-nos{
+  color: #000000;
+  width:auto ;
+}
+
+/*----------------
+----------------------------HOME SERVE---------------------------------------------------------*/
+
+.serve{
+ margin-bottom: 5em;
+ min-width: 80em;
+ min-height: 85em;
+ background-repeat: no-repeat;
+ background-image: url("docs/img/serve.png");
+}
+#titulo-serve{
+  color: #FFF;
+  font-size: 1.7em;
+  margin-top: 20rem;
+ margin-left: 5rem;
+ margin-bottom: 5rem;
+}
+#text-serve{
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+#text-serve2{
+  width: 35rem;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+#img-serve{
+  margin-top: -7.5rem;
+  margin-left: 8rem;
+}
+
+/*--------------------------------------------HOME PQ USAR---------------------------------------------------------*/
+.usar{
+  margin: 3em;
+  
+}
+#pq-usar{
+  color: #000000;
+  margin-left: 4rem;
+  margin-top: -7em;
+  padding: 0;
+}
+#img-usar{
+  margin-right: -10em;
+  margin-top: -10rem;
+}
+#text-usaar{
+  width: 30rem;
+  margin-left: 1.5rem;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-top: -5rem;
+}
+
+#text-rap{
+  margin-left: 1.5rem;
+  font-size: 1.3rem;
+  width: 20rem;
+  color: #000000;
+}
+.button-pilo{
+  font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  background: #0A0C3F;
+  border-color: #fdfdfd;
+  border-radius: 1em;
+  position: absolute;
+  width: 20em;
+  height: 4em;
+  left: 28em;
+  margin-top: 10rem;
+
+}
+
+ /*---------------------------------------------------TELA CADASTRO-------------------------------------------------------------------------------------*/
+ .formu {
+    width: 28rem;
+ }
+ 
+ section.esquerda {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  background-color: #0A0C3F;
+}
+
+section.esquerda form {
+  z-index: 10000;
+}
+
+section.esquerda img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 10;
+  transform: translateX(70%);
+}
+
+section.direita {
+  width: 50%;
+  height: 100vh;
+  padding: 50px;
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#nlogin2{
+  color: #0A0C3F;
+  margin-left: 35%;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+#nbut{
+  background-color: #0a0c3f;
+  border-color: #0a0c3f8e;
+  border-radius: 15px;
+  color: #ffffff;
+  width: 12.5em;
+  height: 3rem;
+  font-size: medium;
+}
+
+.log-text1{
+  color: #FFF;
+  font-size: 1.6em;
+  /* margin-bottom: 1.5rem;
+  margin-left: 1.5rem; */
+}
+.log-text2{
+  color: #FFF;
+  font-size: 1.3em;
+  /* margin-bottom: 1.5rem;
+  margin-left: 1.5rem; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+ 
+div.forms{
+ background-color: rgb(0, 0, 0);
+ font-weight: 200;
+
+}
+
+
+ /*---------------------------------------------------TELA LAB-CLI-------------------------------------------------------------------------------------*/
+ .lab-cli{
+  color: #FFF;
+  font-size: 1.1em;
+  margin-top:-2em;
+  
+}
+ .lab-img{
+    margin-top: 5em;
+    margin-right:30rem;
+    max-height: 25em;
+ }
+ #btn-labcli {
+  border: none;
+  background: white;
+  padding: 7px 50px;
+  color: #0A0C3F;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 19em;
+}
+
+
+
+/*--------------------------FOOTER---------------*/
+.footer{
+  margin-top: 20rem ;
+}
+#logo-footer{
+  max-width: 12em;
+  margin-bottom: -5em;
+  margin-left: -1em;
+}
+.fale-conosco{
+  margin-top: 3em;
+}
+.rede-sociais{
+  margin-top: 3em;
+}
+
+
+/*----------------RESPONSIVIDADE------------------*/
+
+
+
+@media(max-width: 576px) { /*PAG INICIALL*/
+/*--------------------SECTION-NAVBAR-------------------*/
+
+.navbar-brand{
+  margin-top: -1em;
+  margin-left: 1em;
+}
+.navbar-toggler{
+  margin-top: -1em;
+}
+
+  /*------------------SECTION-CEL--------------------*/
+#celular{
+  max-width: 17.5em;
+  max-height: 15em;
+  margin-left: -1em;
+  margin-top: 8em;
+}
+.titu-pilo{
+  color: rgb(246, 243, 243);
+  font-size: 3em;
+  margin-top: -4em;
+  margin-right: 5.1em;
+}
+.text-pilo{
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+  margin-top: -7em;
+  margin-right: 9em;
+}
+
+/*--------------------SECTION-EMPRESA--------------------*/
+.empresa{
+  margin-top: -15em;
+}
+#retan-empresa{
+  max-width:30.5em;
+  height: 15em;
+  margin-left: -0.5em;
+  margin-top: -11em;
+}
+#text-empresa{
+  margin-left: 9em;
+  }
+
+  /* 
+  @media (min-width: 768px) { ... }
+
+  @media (min-width: 992px) { ... }
+
+  @media (min-width: 1200px) { ... }
+
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) { ... } */
+
+}
+  /*--------------------FINAL RESPONSIVIDADE--------------------*/
+    
+
+
+
+form {
+  overflow: hidden;
+  position: relative;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.input-label {
+  position: relative;
+  width: 100%;
+}
+
+input {
+  color: #000000;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 1.2rem;
+  color: #6e6e6e;
+  transition: all .3s;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus ~ .labeluser,
+input:valid ~ .labeluser {
+  transform: translateY(0);
+  top: 0px;
+  font-size: .8rem;
+}
+
+.btn-login {
+  border: none;
+  background: white;
+  padding: 7px 50px;
+  color: #0A0C3F;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.inp-cep {
+  width: 15rem;
+}
+.inp-n {
+  width: 12.6rem;
+}
+.inp-cnpj {
+  width: 14rem;
+}
+.inp-tel {
+  width: 14rem;
+}
+.lab-num {
+  margin-left: 15.3rem;
+}
+
+
